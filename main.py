@@ -59,24 +59,29 @@ class Student:
         else:
             return 'No such student exists'
 
-student = Student()
-delete_student = student.delete_student(2)
 
 
 
+#  Uncomment commands below to see what they do
 
+database = DataBase()
 
-# database = DataBase()
-# print(database.load_data)
+# Create the database
 # database.create_db()
 
-# student = Student()
+student = Student()
+
+# Add students
 # student.add_student('Mary Smart', 'Math', '03232232324')
 # student.add_student('Leah Smith', 'Biology', '088344322324')
 # student.add_student('Mark Twist', 'Biology', '07986554323')
 
+# View data in terminal
+# print(database.load_data())
+
+# Delete a student
 # delete_student = student.delete_student(2)
 # print(delete_student)
-# print(database.load_data())
+
 
 
